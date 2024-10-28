@@ -1,0 +1,103 @@
+/* Reset styling for consistency across browsers */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.small-image {
+    width: 50%; /* 50% of the parent container's width */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+body {
+    background-color: #818589; /* Cream background color */
+    color: white; /* Text color */
+    line-height: 1.6;
+    padding: 0 0vw; /* Adjust side spacing */
+}
+
+/* Header */
+header {
+    background-color: #1995AD; /* Header background color */
+    color: rgb(22, 20, 20); /* White header text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: rgb(22, 20, 20); /* Navigation link color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    color: black; /* Hover color for links */
+}
+
+/* Section Styling */
+section {
+    width: 90%; /* Expand section areas */
+    max-width: 2500px; /* Maximum width for readability */
+    margin: 20px auto; /* Center sections */
+    padding: 20px;
+    background-color: #222222; /* Section background color */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1995AD; /* Section heading color */
+    margin-bottom: 10px;
+}
+
+/* Education Card and Project Card */
+.education-card, .project-card {
+    background-color: #222222; /* Card background color */
+    padding: 15px;
+    border-left: 8px solid #1995AD; /* Increased border width */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.education-card h3, .project-card h3 {
+    color: #1995AD; /* Card heading color */
+    margin-bottom: 5px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#skills ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1995AD; /* Footer background color */
+    color: #FFFFFF; /* White footer text color */
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
